@@ -11,17 +11,17 @@ const SocialLinks = ({ styleClass }) => {
   return (
     <ul className={styleClass}>
       <li>
-        <a href="https://twitter.com">
+        <a href="https://github.com/Cmmh1101/" target="_blank">
           <FaGithubSquare className="social-icon github-icon"></FaGithubSquare>
         </a>
       </li>
       <li>
-        <a href="https://twitter.com">
+        <a href="https://www.linkedin.com/in/carla-montano/" target="_blank">
           <FaLinkedin className="social-icon linkedin-icon"></FaLinkedin>
         </a>
       </li>
       <li>
-        <a href="https://twitter.com">
+        <a href="https://twitter.com/cmmh1101" target="_blank">
           <FaTwitterSquare className="social-icon twitter-icon"></FaTwitterSquare>
         </a>
       </li>

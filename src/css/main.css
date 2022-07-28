@@ -632,6 +632,9 @@ Footer
   line-height: 1;
   margin-bottom: 0.5rem;
 }
+.footer-icons .github-icon {
+  color:var(--clr-white);
+}
 .footer-icons a {
   font-size: 1.5rem;
   margin: 0 0.5rem;
