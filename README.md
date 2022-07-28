@@ -77,6 +77,14 @@
 9. FrontMatter (space gotcha - title: first post)
 10. Imports after FrontMatter
 
+## Open graphql sandbox
+
+1. go to: http://localhost:8000/\_\_\_graphql
+2. make sure that you see the allMDX field on the explorer
+3. check the frontmatter fields are inside NODES
+4. select the necessary fields
+5. export query code
+
 ## Create MDX/Post Pages Programatically
 
 1. Setup Query with unique value (most likely slug)
