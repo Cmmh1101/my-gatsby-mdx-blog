@@ -3,6 +3,8 @@ import Hero from '../components/Hero'
 import Layout from '../components/Layout'
 import Posts from '../components/Posts'
 import { graphql } from 'gatsby'
+import { RegVideo } from '../components/Complete'
+
 const IndexPage = ({ data }) => {
   console.log(data)
   const {
@@ -11,6 +13,7 @@ const IndexPage = ({ data }) => {
   return (
     <Layout>
       <Hero showHeroImg />
+      <RegVideo />
       <Posts posts={posts} title="recently published" />
     </Layout>
   )
