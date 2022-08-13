@@ -23,7 +23,6 @@ const PostTemplate = ({ data }) => {
             image={getImage(image)}
             alt={title}
             className="main-img"
-            ley
           />
           <div className="post-info">
             <span>{category}</span>
