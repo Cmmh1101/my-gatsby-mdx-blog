@@ -5,7 +5,6 @@ import {
   Code,
   Headings,
   Blockquote,
-  Example,
   PrismSetup,
 } from './src/components/Complete'
 
