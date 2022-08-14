@@ -1,10 +1,20 @@
 import './src/css/main.css'
 import React from 'react'
 import { MDXProvider } from '@mdx-js/react'
+import {
+  Code,
+  Headings,
+  Blockquote,
+  Example,
+  PrismSetup,
+} from './src/components/Complete'
 
 const components = {
-  //  logic
-  //   h3: () => <span>an you thought you had a heading 3</span>,
+  h2: Headings.myH2,
+  h4: Headings.myH4,
+  inlineCode: Code,
+  blockquote: Blockquote,
+  pre: PrismSetup,
 }
 
 export const wrapMDX = ({ element }) => {
