@@ -7,17 +7,17 @@ Variables
 :root {
   /* dark shades of primary color*/
 
-  --clr-primary-1: hsl(245, 91%, 17%);
-  --clr-primary-2: hsl(245, 84%, 25%);
-  --clr-primary-3: hsl(245, 81%, 29%);
-  --clr-primary-4: hsl(245, 77%, 34%);
-  --clr-primary-5: hsl(245, 62%, 45%);
+  --clr-primary-1: hsl(227, 93%, 37%);
+  --clr-primary-2: hsl(227, 95%, 50%);
+  --clr-primary-3: hsl(227, 92%, 52%);
+  --clr-primary-4: hsl(227, 89%, 55%);
+  --clr-primary-5: hsl(227, 95%, 59%);
   /* lighter shades of primary color */
-  --clr-primary-6: hsl(245, 57%, 50%);
-  --clr-primary-7: hsl(245, 65%, 59%);
-  --clr-primary-8: hsl(245, 80%, 74%);
-  --clr-primary-9: hsl(245, 94%, 87%);
-  --clr-primary-10: hsl(245, 87%, 94%);
+  --clr-primary-6: hsl(215, 91%, 53%);
+  --clr-primary-7: hsl(215, 89%, 59%);
+  --clr-primary-8: hsl(215, 91%, 66%);
+  --clr-primary-9: hsl(215, 88%, 72%);
+  --clr-primary-10: hsl(215, 88%, 80%);
   /* darkest grey - used for headings */
   --clr-grey-1: hsl(209, 61%, 16%);
   --clr-grey-3: hsl(209, 34%, 30%);
@@ -401,7 +401,7 @@ Posts Component
 .posts-title {
   font-weight: 700;
   text-transform: uppercase;
-  color: #e12d39;
+  color: var(--clr-primary-6);
   font-size: 1.25rem;
   margin-bottom: 2.5rem;
 }
