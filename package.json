@@ -1,7 +1,7 @@
 {
-  "name": "my-fave-recipes",
+  "name": "my-gatsby-blog",
   "private": true,
-  "description": "A simply Venezuelan recipes website",
+  "description": "Carla Montano personal and development blog",
   "version": "0.1.0",
   "license": "0BSD",
   "scripts": {
