@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "my-fave-recipes",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
+  "description": "A simply Venezuelan recipes website",
   "version": "0.1.0",
   "license": "0BSD",
   "scripts": {
