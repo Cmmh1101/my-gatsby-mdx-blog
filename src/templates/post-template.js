@@ -98,6 +98,9 @@ const Wrapper = styled.section`
       margin-bottom: 1rem;
     }
   }
+  .main-img {
+      border-radius: var(--radius);
+    }
   @media (min-width: 992px) {
     & {
       width: 92vw;
