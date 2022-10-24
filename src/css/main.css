@@ -68,6 +68,11 @@ body {
 ul {
   list-style-type: none;
 }
+
+ol li {
+  margin: 0 0 0.8rem 1rem;
+}
+
 a {
   text-decoration: none;
 }
@@ -570,7 +575,6 @@ Single Pages
 Testing Post and Components
 ===============
 */
-
 .code {
   background: #1e1e1e;
   color: var(--clr-primary-5);
@@ -630,6 +634,7 @@ Testing Post and Components
 .mdx-img p {
   width: 20rem;
 }
+
 .mdx-img .gatsby-resp-image-image,
 .mdx-img .gatsby-resp-image-background-image {
   border-radius: 50px;
