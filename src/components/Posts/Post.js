@@ -9,7 +9,10 @@ const Post = ({ excerpt, frontmatter }) => {
   const { title, image, slug, date, category, readTime } = frontmatter
   return (
     <Wrapper>
-      <GatsbyImage image={getImage(image)} alt={title} className="img" />
+      <div className="img-box">
+        <GatsbyImage image={getImage(image)} alt={title} className="img" />
+      </div>
+      {/* <GatsbyImage image={getImage(image)} alt={title} className="img" /> */}
       <div className="info">
         <span className="category">{category}</span>
         <h3>{title}</h3>
@@ -32,15 +35,29 @@ const Post = ({ excerpt, frontmatter }) => {
 
 const Wrapper = styled.article`
   margin-bottom: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap;
+  transition: all 0.3s ease-in-out;
+  :hover .img {
+    transform: scale(1.2);
+  }
   .info {
     text-align: center;
   }
-  .img {
-    margin-bottom: 1rem;
+  .img-box {
+    width: 100%;
+    height: 20rem;
+    overflow: hidden;
     border-radius: var(--radius);
-    height: 17rem;
+    margin-bottom: 1rem;
+  }
+  .img {
+    height: 100%;
+    width: 100%;
     box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.589);
-  -webkit-box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.589);
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.589);
   }
   .category {
     display: inline-block;
@@ -121,6 +138,9 @@ const Wrapper = styled.article`
       column-gap: 1.5rem;
       .info {
         text-align: left;
+      }
+      .img-box {
+        margin-bottom: 0;
       }
       .img {
         height: 100%;

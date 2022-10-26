@@ -236,7 +236,7 @@ Navbar
   color: #111112;
 }
 .linkedin-icon {
-  color: #3b5998;
+  color: #0e58f7;
 }
 .twitter-icon {
   color: #00acee;
@@ -254,6 +254,7 @@ Navbar
   .nav-links {
     display: flex;
     align-items: center;
+    justify-content: center;
   }
   .page-link {
     color: var(--clr-black);
