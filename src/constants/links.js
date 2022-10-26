@@ -4,25 +4,34 @@ const Links = ({ styleClass, children }) => {
   return (
     <ul className={styleClass}>
       <li>
-        <Link to="/" className="page-link">
+        <Link to="/" className="page-link" activeStyle={{
+    color: "#063bf9",
+          fontWeight: 700
+  }}>
           Home
         </Link>
       </li>
       <li>
-        <Link to="/posts" className="page-link">
+        <Link to="/posts" className="page-link" activeStyle={{
+    color: "#063bf9",
+          fontWeight: 700
+  }}>
           Posts
         </Link>
         {children}
       </li>
       <li>
-        <Link to="/newsletter" className="page-link">
+        <Link to="/newsletter" className="page-link" activeStyle={{
+    color: "#063bf9",
+          fontWeight: 700
+  }}>
           Newsletter
         </Link>
       </li>
       <li>
-        <Link to="/post" className="page-link">
-          Post
-        </Link>
+        <a href="https://carlamontano.tech" className='page-link' target="_blank" rel="noreferrer">
+          Portfolio
+        </a>
       </li>
     </ul>
   )

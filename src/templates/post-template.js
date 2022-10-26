@@ -100,6 +100,8 @@ const Wrapper = styled.section`
   }
   .main-img {
       border-radius: var(--radius);
+      box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.589);
+      -webkit-box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.589);
     }
   @media (min-width: 992px) {
     & {

@@ -7,30 +7,30 @@ Variables
 :root {
   /* dark shades of primary color*/
 
-  --clr-primary-1: hsl(227, 93%, 37%);
-  --clr-primary-2: hsl(227, 95%, 50%);
-  --clr-primary-3: hsl(227, 92%, 52%);
-  --clr-primary-4: hsl(227, 89%, 55%);
-  --clr-primary-5: hsl(227, 95%, 59%);
+  --clr-primary-1: #072db6;
+  --clr-primary-2: #063bf9;
+  --clr-primary-3: #1445f5;
+  --clr-primary-4: #2652f2;
+  --clr-primary-5: #335efa;
   /* lighter shades of primary color */
-  --clr-primary-6: hsl(215, 91%, 53%);
-  --clr-primary-7: hsl(215, 89%, 59%);
-  --clr-primary-8: hsl(215, 91%, 66%);
-  --clr-primary-9: hsl(215, 88%, 72%);
-  --clr-primary-10: hsl(215, 88%, 80%);
+  --clr-primary-6: #1a75f4;
+  --clr-primary-7: #3987f3;
+  --clr-primary-8: #599bf7;
+  --clr-primary-9: #79adf6;
+  --clr-primary-10: #9fc5f9;
   /* darkest grey - used for headings */
-  --clr-grey-1: hsl(209, 61%, 16%);
-  --clr-grey-3: hsl(209, 34%, 30%);
-  --clr-grey-4: hsl(209, 28%, 39%);
+  --clr-grey-1: #102a42;
+  --clr-grey-3: #324d67;
+  --clr-grey-4: #48647f;
   /* grey used for paragraphs */
-  --clr-grey-5: hsl(210, 22%, 49%);
-  --clr-grey-8: hsl(210, 31%, 80%);
-  --clr-grey-9: hsl(212, 33%, 89%);
-  --clr-grey-10: hsl(206, 33%, 96%);
-  --clr-green-dark: hsl(125, 67%, 35%);
-  --clr-green-light: hsl(134, 41%, 88%);
-  --clr-red-dark: hsl(360, 67%, 44%);
-  --clr-red-light: hsl(360, 71%, 66%);
+  --clr-grey-5: #617d98;
+  --clr-grey-8: #bcccdc;
+  --clr-grey-9: #dae2ec;
+  --clr-grey-10: #f1f5f8;
+  --clr-green-dark: #1d9527;
+  --clr-green-light: #d4edda;
+  --clr-red-dark: #bb2525;
+  --clr-red-light: #e66b6b;
   --clr-white: #fff;
   --clr-black: #0a0c10;
   --ff-primary: 'Roboto', sans-serif;
@@ -256,22 +256,21 @@ Navbar
     align-items: center;
   }
   .page-link {
-    margin-right: 1rem;
-  }
-  .page-link {
     color: var(--clr-black);
+    margin-right: 1rem;
     font-weight: 500;
     letter-spacing: var(--spacing);
     font-size: 1rem;
     transition: var(--transition);
+    transition: all 0.5s ease-in-out;
     font-family: var(--ff-secondary);
     cursor: pointer;
     padding: 0.25rem 0.5rem;
     border-radius: var(--radius);
   }
   .page-link:hover {
-    background: var(--clr-primary-5);
-    color: var(--clr-primary-10);
+    color: var(--clr-primary-3);
+    font-weight: 700;
   }
   .nav-icons {
     display: flex;

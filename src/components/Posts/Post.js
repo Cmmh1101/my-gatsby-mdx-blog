@@ -39,6 +39,8 @@ const Wrapper = styled.article`
     margin-bottom: 1rem;
     border-radius: var(--radius);
     height: 17rem;
+    box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.589);
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.589);
   }
   .category {
     display: inline-block;
@@ -65,7 +67,7 @@ const Wrapper = styled.article`
   }
   p {
     color: var(--clr-grey-5);
-    line-height: 1.8;
+    line-height: 1.5;
   }
   .link {
     text-transform: uppercase;
@@ -85,8 +87,8 @@ const Wrapper = styled.article`
     color: var(--clr-primary-8);
   }
   footer {
-    margin-top: 2rem;
-    padding-top: 1rem;
+    margin-top: 1rem;
+    padding-top: 0.5rem;
     border-top: 1px solid var(--clr-grey-9);
     display: flex;
     align-items: center;
