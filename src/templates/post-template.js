@@ -17,13 +17,10 @@ const PostTemplate = ({ data }) => {
     <Layout>
       <Hero />
       <Wrapper>
-        {/* post info */}
         <article>
-          <GatsbyImage
-            image={getImage(image)}
-            alt={title}
-            className="main-img"
-          />
+          <div className="img-box">
+            <GatsbyImage image={getImage(image)} alt={title} />
+          </div>
           <div className="post-info">
             <span>{category}</span>
             <h2>{title}</h2>
@@ -32,7 +29,6 @@ const PostTemplate = ({ data }) => {
           </div>
           <MDXRenderer embeddedImages={embeddedImages}>{body}</MDXRenderer>
         </article>
-        {/* banner */}
         <article>
           <Banner />
         </article>
@@ -98,11 +94,15 @@ const Wrapper = styled.section`
       margin-bottom: 1rem;
     }
   }
-  .main-img {
-      border-radius: var(--radius);
-      box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.589);
-      -webkit-box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.589);
-    }
+  .img-box {
+    width: 100%;
+    height: 25rem;
+    overflow: hidden;
+    border-radius: var(--radius);
+    margin-bottom: 1rem;
+    box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.589);
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(50, 50, 50, 0.589);
+  }
   @media (min-width: 992px) {
     & {
       width: 92vw;
