@@ -6,7 +6,7 @@ import {
   Headings,
   Blockquote,
   PrismSetup,
-} from './src/components/Complete'
+} from './src/components/PostsUtils'
 
 const components = {
   h2: Headings.myH2,
