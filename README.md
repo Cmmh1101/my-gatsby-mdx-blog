@@ -5,17 +5,8 @@
 #### Changes
 
 1. Layout imported in every page instead of gatsby-browser.js
-2. No Instagram Component
 
-## Project Setup
-
-1. Base - Gatsby Hello World
-2. Components + Imports - ready
-3. main.css + styled components
-4. constants (different setup)
-5. Complete React Components for MDX
-
-## Boring Components
+## Base Components
 
 0. Home Page
 1. Navbar
@@ -50,7 +41,6 @@
    Syntax Highlighting - MDX EXTENSION
 5. Basic Styling
 6. Add React Components including Gatsby Link
-7. New Line Gotcha
 
 ## Multiple Posts
 
@@ -68,14 +58,13 @@
 
 ```
 
-4. Create a Brand New Folder For Post
-   Won't Query Name - setup is up to you
-5. Add mdx file
-6. DOUBLE CHECK PATHS (../../ - gotcha)
-7. Run 'gatsby clean' - just to be on the safe side
-8. Seperate Images Folder
-9. FrontMatter (space gotcha - title: first post)
-10. Imports after FrontMatter
+3. Create a Brand New Folder For Post
+   Won't Query Name
+4. Add mdx file
+5. Run 'gatsby clean' - just to be on the safe side
+6. Seperate Images Folder
+7. FrontMatter (space gotcha - title: first post)
+8. Imports after FrontMatter
 
 ## Open graphql sandbox
 
