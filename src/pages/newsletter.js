@@ -30,7 +30,7 @@ const NewsLetter = () => {
               className="form-control"
             />
             <button type="submit" className="btn form-control submit-btn">
-              Subscribe
+              Subscribe Now
             </button>
           </form>
         </div>
