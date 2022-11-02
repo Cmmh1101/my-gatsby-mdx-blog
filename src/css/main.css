@@ -356,13 +356,25 @@ Hero
 */
 .hero {
   background: var(--clr-primary-10);
-  height: 18rem;
+  height: 40rem;
   position: relative;
   z-index: -1;
   margin-bottom: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
-.hero::after {
+.header {
+  text-align: center;
+  z-index: 3;
+}
+.header p {
+  font-size: 1.2rem;
+}
+
+/* .hero::after {
   content: '';
   position: absolute;
   bottom: 0;
@@ -371,15 +383,28 @@ Hero
   width: 100%;
   background: url('../assets/wave1.svg');
   background-size: cover;
-}
-.hero-person {
+} */
+/* .hero-person {
   display: none !important;
+} */
+
+.hero-person {
+  width: 20rem;
+  height: 20rem;
+  display: block !important;
+  position: absolute;
+  /* top: 20%;
+  left: 45%; */
+  transform: translate(0%, 30%);
+  opacity: 0.6;
+  z-index: 1;
 }
+
 @media screen and (min-width: 1200px) {
-  .hero {
+  /* .hero {
     height: 40rem !important;
-  }
-  .hero-person {
+  } */
+  /* .hero-person {
     width: 20rem;
     height: 20rem;
     display: block !important;
@@ -388,25 +413,25 @@ Hero
     left: 60%;
     transform: translate(-20%, 20%);
     z-index: 4;
-  }
+  } */
 }
 
 @media screen and (min-width: 800px) {
-  .hero {
+  /* .hero {
     height: 30rem !important;
-  }
-  .hero-person {
+  } */
+  /* .hero-person {
     width: 20rem;
     height: 20rem;
     display: block !important;
-    position: absolute;
+    /* position: absolute;
     top: 20%;
     left: 60%;
-    transform: translate(-20%, 20%);
-    z-index: 4;
-  }
+    transform: translate(-20%, 20%); 
+    z-index: 1;
+  } */
 
-  .hero::after {
+  /* .hero::after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -415,7 +440,7 @@ Hero
     width: 100%;
     background: url('../assets/wave1.svg');
     background-size: cover;
-  }
+  } */
 }
 
 .small-hero {
