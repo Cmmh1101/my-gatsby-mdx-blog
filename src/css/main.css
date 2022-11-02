@@ -358,89 +358,56 @@ Hero
   background: var(--clr-primary-10);
   height: 40rem;
   position: relative;
-  z-index: -1;
   margin-bottom: 3rem;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin-bottom: 6rem;
+  box-shadow: var(--light-shadow);
+  z-index: -1;
 }
 
 .header {
   text-align: center;
+  padding: 0 10%;
   z-index: 3;
 }
-.header p {
-  font-size: 1.2rem;
+.header h1 {
+  text-align: center;
+  color: var(--clr-primary-3);
+  font-size: 2rem;
 }
 
-/* .hero::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  height: 14rem;
-  width: 100%;
-  background: url('../assets/wave1.svg');
-  background-size: cover;
-} */
-/* .hero-person {
-  display: none !important;
-} */
+.header p {
+  font-size: 1.1rem;
+  color: var(--clr-grey-1);
+}
 
 .hero-person {
-  width: 20rem;
-  height: 20rem;
-  display: block !important;
-  position: absolute;
-  /* top: 20%;
-  left: 45%; */
-  transform: translate(0%, 30%);
-  opacity: 0.6;
-  z-index: 1;
-}
-
-@media screen and (min-width: 1200px) {
-  /* .hero {
-    height: 40rem !important;
-  } */
-  /* .hero-person {
-    width: 20rem;
-    height: 20rem;
-    display: block !important;
-    position: absolute;
-    top: 20%;
-    left: 60%;
-    transform: translate(-20%, 20%);
-    z-index: 4;
-  } */
+  display: none;
 }
 
 @media screen and (min-width: 800px) {
-  /* .hero {
-    height: 30rem !important;
-  } */
-  /* .hero-person {
+  .hero-person {
+    display: block;
     width: 20rem;
     height: 20rem;
-    display: block !important;
-    /* position: absolute;
-    top: 20%;
-    left: 60%;
-    transform: translate(-20%, 20%); 
-    z-index: 1;
-  } */
-
-  /* .hero::after {
-    content: '';
     position: absolute;
-    bottom: 0;
-    left: 0;
-    height: 30rem;
-    width: 100%;
-    background: url('../assets/wave1.svg');
-    background-size: cover;
-  } */
+    transition: all 0.3s ease-in-out;
+    transform: translate(0%, 30%);
+    opacity: 0.6;
+    z-index: 1;
+  }
+  .header h1 {
+    text-align: center;
+    color: var(--clr-primary-3);
+    font-size: 3rem;
+  }
+  .header p {
+    font-size: 1.3rem;
+    color: var(--clr-grey-1);
+  }
 }
 
 .small-hero {
