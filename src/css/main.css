@@ -642,6 +642,20 @@ Testing Post and Components
   border-radius: 1rem;
 }
 
+/* +++ */
+hr {
+  margin-bottom: 20px;
+}
+
+.link-in-posts {
+  margin-left: 5px;
+}
+
+.bottom-comment {
+  margin-bottom: 20px;
+}
+/* +++ */
+
 /*
 ===============
 Footer
