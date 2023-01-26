@@ -96,7 +96,7 @@ const Wrapper = styled.section`
   }
   .img-box {
     width: 100%;
-    height: 25rem;
+    /* height: 25rem; */
     overflow: hidden;
     border-radius: var(--radius);
     margin-bottom: 1rem;
@@ -111,6 +111,10 @@ const Wrapper = styled.section`
       width: 75%;
       display: block;
       margin: 0 auto;
+    }
+    .img-box {
+      width: 100%;
+      height: 25rem;
     }
   }
   @media (min-width: 1170px) {
