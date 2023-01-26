@@ -10,7 +10,7 @@ const PostsPage = ({ data }) => {
   } = data
   return (
     <Layout>
-      <Hero />
+      <Hero smallHero />
       <Posts posts={posts} title="all posts" />
     </Layout>
   )

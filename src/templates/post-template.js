@@ -15,7 +15,7 @@ const PostTemplate = ({ data }) => {
   } = data
   return (
     <Layout>
-      <Hero />
+      <Hero smallHero />
       <Wrapper>
         <article>
           <div className="img-box">

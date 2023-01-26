@@ -416,8 +416,7 @@ Hero
 }
 
 .small-hero {
-  height: 8rem;
-  background: var(--clr-primary-10);
+  height: 15rem;
   margin-bottom: 6rem;
 }
 /*

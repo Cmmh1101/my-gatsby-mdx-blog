@@ -1,14 +1,18 @@
 import React from 'react'
 import { StaticImage } from 'gatsby-plugin-image'
 
-const Hero = ({ showHeroImg }) => {
+const Hero = ({ showHeroImg, showHeroHeader, smallHero }) => {
   return (
-    <header className="hero">
+    <header className={smallHero ? 'hero small-hero' : 'hero'}>
       <div className="header">
-        <h1>
-          <span>Welcome </span>to my blog
-        </h1>
-        <p>A journey from teaching to programming and beyond</p>
+        {showHeroHeader && (
+          <>
+            <h1>
+              <span>Welcome </span>to my blog
+            </h1>
+            <p>A journey from teaching to programming and beyond</p>
+          </>
+        )}
       </div>
 
       {showHeroImg && (
