@@ -678,7 +678,7 @@ Footer
   line-height: 1;
   margin-bottom: 0.5rem;
 }
-.footer-icons .github-icon {
+.github-icon {
   color: var(--clr-white);
 }
 .footer-icons a {
