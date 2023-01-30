@@ -16,10 +16,12 @@ const About = () => {
         alt="author"
         className="img"
       />
+      <p>Software Engineer @ Green Mountain Technology.</p>
       <p>
-        {' '}
-        I'm a Software Engineer at Green Mountain Technology. I enjoy building,
-        learning, and mentoring others.
+        As software engineer I enjoy every oportunity I have to building,
+        learning, and mentoring others. I changed careers from teaching to
+        programming and I like to help others make that transition happen as
+        well.
       </p>
       <SocialLinks styleClass="banner-icons" />
     </Wrapper>

@@ -3,7 +3,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 
 const Hero = ({ showHeroImg, showHeroHeader, smallHero }) => {
   return (
-    <header className={smallHero ? 'hero small-hero' : 'hero'}>
+    <header className={smallHero ? 'small-hero' : 'hero'}>
       <div className="header">
         {showHeroHeader && (
           <>

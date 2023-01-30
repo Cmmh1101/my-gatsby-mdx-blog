@@ -388,14 +388,10 @@ Hero
     /* color: var(--clr-primary-3); */
     font-size: 4rem;
   }
-  .hero .header p {
-    font-size: 1.3rem;
-    color: var(--clr-grey-1);
-  }
 }
 
 .small-hero {
-  height: 10rem;
+  height: 5rem;
   margin-bottom: 6rem;
 }
 /*
