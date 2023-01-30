@@ -7,9 +7,7 @@ const Hero = ({ showHeroImg, showHeroHeader, smallHero }) => {
       <div className="header">
         {showHeroHeader && (
           <>
-            <h1>
-              <span>Welcome </span>to my blog
-            </h1>
+            <h1>Welcome to my blog</h1>
             <p>A journey from teaching to programming and beyond</p>
           </>
         )}

@@ -9,7 +9,7 @@ const About = () => {
     <Wrapper>
       <Title title="About me" />
       <StaticImage
-        src="../../assets/profile-pic.png"
+        src="../../assets/pic-carla.png"
         layout="fixed"
         width={100}
         height={100}
@@ -17,8 +17,9 @@ const About = () => {
         className="img"
       />
       <p>
-        this is a p placeholder, this is a p placeholder, this is a p
-        placeholder
+        {' '}
+        I'm a Software Engineer at Green Mountain Technology. I enjoy building,
+        learning, and mentoring others.
       </p>
       <SocialLinks styleClass="banner-icons" />
     </Wrapper>

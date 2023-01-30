@@ -6,7 +6,7 @@ const Footer = () => {
       <div>
         <SocialLinks styleClass="footer-icons" />
         <p>
-          &copy;{new Date().getFullYear()} Carla Montano | All Rights reserved{' '}
+          &copy;{new Date().getFullYear()} Carla Montano | All Rights reserved
         </p>
       </div>
     </footer>

@@ -66,6 +66,7 @@ const Wrapper = styled.div`
     letter-spacing: 0;
     line-height: 1.2;
     color: var(--clr-grey-1);
+    font-weight: 500;
   }
   p {
     font-size: 0.6rem;
