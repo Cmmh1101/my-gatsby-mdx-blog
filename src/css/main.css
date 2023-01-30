@@ -231,7 +231,7 @@ Navbar
 }
 
 .github-icon {
-  color: #111112;
+  color: var(--clr-white);
 }
 .linkedin-icon {
   color: #0e58f7;
